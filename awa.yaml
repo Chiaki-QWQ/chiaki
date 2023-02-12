@@ -408,14 +408,13 @@ proxy-groups:
   - name: Ⓜ️ Microsoft
     type: select
     proxies:
-      - DIRECT
+      - 🎯 Direct
       - 🚀 Proxies
   - name: 📺 Bilibili
     type: select
     proxies:
       - 🎯 Direct
-      - HK
-      - TW
+      - 🚀 Proxies
   - name: 🎯 Direct
     type: select
     proxies:
