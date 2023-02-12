@@ -207,16 +207,6 @@ proxy-groups:
   - name: 🚀 Proxies
     type: select
     proxies:
-      - HK
-      - JP
-      - US
-      - TW
-      - SG
-      - KR
-      - 🚀 Select
-  - name: 🚀 Select
-    type: select
-    proxies:
       - Hong Kong 01
       - Hong Kong 02
       - Hong Kong 03
