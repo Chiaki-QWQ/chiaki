@@ -27,7 +27,7 @@ dns:
     fake-ip-filter: [+.lan, +.cn, +.10010.com, +.chinaunicom.com, '*.alipay.com', '*.alipayobjects.com', connect.rom.miui.com, localhost.ptlogin2.qq.com, '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', '+.stun.*.*.*.*.*', '*.n.n.srv.nintendo.net', +.stun.playstation.net, '*.msftncsi.com', '*.msftconnecttest.com', ntp.ntsc.ac.cn]
     nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
     fallback: ['tls://8.8.4.4', 'https://dns.twnic.tw/dns-query']
-    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+    fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 
 #   clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
